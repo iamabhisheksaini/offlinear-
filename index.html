@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    
+    <!-- 
+    - favicon
+  -->
+    <link rel="icon" type="image/x-icon" href="./favicon.png" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+        
+        <a href="#">
+          <!-- <h1 class="logo">GT Media</h1> -->
+          <img src="./logo1 copy.png" width="90" />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">Offlinear LLC</a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="Close Menu"
+              data-nav-close-btn
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-navbar-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-navbar-link
+                >Services</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#features" class="navbar-link" data-navbar-link
+                >Features</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#portfolio" class="navbar-link" data-navbar-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn">
+          <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+          <span>+ 323-391-0812 </span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">Trusted partner in tech recruitment and IT consulting solutions</p>
+
+              <h2 class="h2 hero-title">
+                Revolutionizing B2B Landscapes with Specialized Tech Synergies
+              </h2>
+
+              <div
+                style="display: flex; flex-wrap: wrap; margin-bottom: 20px"
+                class="tech-icons-container"
+              >
+                <img
+                  src="./assets/images/wordpress.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/figma.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/javascript.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/mongodb.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/mysql.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/nodedotjs.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/postgresql.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/react.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/shopify.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/svelte.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/typescript.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/visualstudiocode.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/python.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+                <img
+                  src="./assets/images/php.svg"
+                  width="40"
+                  style="margin: 6px"
+                />
+              </div>
+
+              <p class="hero-text">
+                Unlocking potential with IT consultation, streamlining through offshore development services, and fortifying through Managed IT solutions –Offlinear LLC revolutionizes workforce innovation.
+              </p>
+
+              <button
+                class="btn btn-whatsapp"
+                style="display: flex; align-items: center"
+              >
+                <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+                <span style="margin-left: 10px">Message on Whatsapp</span>
+              </button>
+
+              <div class="rate" style="margin-top: 30px">
+                <input type="radio" id="star5" name="rate" value="5" checked />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" checked />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" checked />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" checked />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" checked />
+                <label for="star1" title="text">1 star</label>
+              </div>
+              <p style="color: aliceblue">IT Services and IT Consulting</p>
+            </div>
+
+            <!-- <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation">
+          </figure> -->
+            <div class="banner-form-container">
+              <div class="banner-form">
+                <h3>Connect with Us</h3>
+                <p style="text-align: center">
+                  We'll reply to you within minutes
+                </p>
+                <form
+                  method="POST"
+                  id="first_form"
+                  name="first_form"
+                  action="https://digikit.in/forms/globaltrendsmedia/banner.php"
+                >
+                  <div class="mb-3">
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="name-input"
+                      placeholder="Your Name"
+                      name="name"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <input
+                      required
+                      type="email"
+                      class="form-control"
+                      id="email-input"
+                      placeholder="Your Email"
+                      name="email"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      required
+                      type="tel"
+                      class="form-control"
+                      id="mobno-input"
+                      placeholder="Phone Number"
+                      name="phone"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="country-input"
+                      placeholder="Country"
+                      name="country"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      required
+                      type="text"
+                      class="form-control"
+                      id="country-input"
+                      placeholder="Leave a Message for us"
+                      name="message"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <input
+                      required
+                      type="submit"
+                      value="Submit"
+                      class="form-control"
+                      id="exampleInputPassword"
+                      style="color: white"
+                    />
+                  </div>
+
+                  <span class="form-bottom-content-span">
+                    *Your privacy is our priority, your details are never shared
+                    with any one.
+                  </span>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.png"
+                width="700"
+                height="532"
+                loading="lazy"
+                alt="about banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+
+            <div class="about-content">
+              <h2 class="h2 section-title underline">Strategic Staffing for Dynamic Projects</h2>
+
+              <p class="about-text">
+                With Offlinear LLC  services, step into a future where IT Consultation, Offshore Development Services, and Managed IT Solutions are delivered with a personal touch. Our team’s dedication to your success is evident in our bespoke services that respect the human aspect of IT, creating advanced yet approachable solutions.
+              </p>
+
+              <p class="about-text">
+                We're eager to explore potential collaboration opportunities and
+                discuss how we can work together to deliver exceptional value to
+                your customers
+              </p>
+
+              <ul class="stats-list">
+                <li class="stats-card">
+                  <p class="h3 stats-title">975</p>
+
+                  <p class="stats-text">Satisfied Clients</p>
+                </li>
+
+                <li class="stats-card">
+                  <p class="h3 stats-title">1094</p>
+
+                  <p class="stats-text">Strategic Solution
+                    Design</p>
+                </li>
+
+                <li class="stats-card">
+                  <p class="h3 stats-title">5+</p>
+
+                  <p class="stats-text">Years Completed</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service" id="services">
+          <div class="container">
+            <h2 class="h2 section-title underline">Our Speciallization</h2>
+
+            <ul class="service-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="telescope-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 title">Managed IT services</h3>
+
+                  <p class="text">
+                    OFFlinear Managed IT Solutions offer more than just technical support; we take a human-centric approach, providing proactive, reliable, and customized services that empower your business to thrive in the ever-evolving IT landscape.
+                  </p>
+
+                  <!-- <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button> -->
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 title">IT Consultation</h3>
+
+                  <p class="text">
+                    OFFlinear,our IT Consultation goes beyond technology – we become your trusted advisors, understanding your unique needs, and crafting personalized strategies to propel your business forward in the digital landscape.
+                  </p>
+
+                  <!-- <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button> -->
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="globe-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 title">Staff Augmentation</h3>
+
+                  <p class="text">
+                     OFFlinear ,flexible staff augmentation accelerates your project delivery, connecting you with specialized talent tailored for immediate and impactful integration.
+                  </p>
+
+                  <!-- <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button> -->
+                </div>
+              </li>
+
+
+            
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="globe"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 title">Offshore Development Services (ODC)</h3>
+
+                  <p class="text">
+                     OFFlinear ,Offshore Development Services, we don't just provide services; we become an extension of your team, ensuring seamless collaboration, Creativity, and delivering offshore development that accelerates your business growth.
+                  </p>
+
+                  <!-- <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button> -->
+                </div>
+              </li>
+
+
+
+
+
+
+
+
+
+
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features" id="features">
+          <div class="container">
+            <h2 class="h2 section-title underline">Our Features</h2>
+
+            <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="bulb-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 class="h3 title">Comprehensive
+                      Analysis</h3>
+
+                    <p class="text">
+                      Understanding the unique objectives and challenges of your enterprise across various technological fronts, from IT solutions to Offshore development, and Staff Augmentation.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="color-palette-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 class="h3 title">Strategic Solution
+                      Design</h3>
+
+                    <p class="text">
+                      Tailoring solutions across different service lines including custom applications, operational streamlining, analytical tools, and human capital management to align with your Planned goals.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <figure class="features-banner">
+              <img
+                src="./assets/images/feautres-banner.png"
+                width="369"
+                height="318"
+                loading="lazy"
+                alt="Features Banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+
+            <ul class="features-list">
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 class="h3 title">Implementation &
+                      Continuous
+                      Enhancement</h3>
+
+                    <p class="text">
+                      Delivering and seamlessly integrating adaptable solutions into your business environment with ongoing optimization and support for sustained excellence and development.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <div class="icon">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                  </div>
+
+                  <div class="content">
+                    <h3 class="h3 title">Testing & Launching</h3>
+
+                    <p class="text">
+                      Ensuring cross-browser and cross-device compatibility is
+                      paramount. Our testing process includes rigorous testing
+                      across web browsers and devices.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" id="portfolio">
+          <div class="container">
+            <h2 class="h2 section-title underline">Our Recent Work</h2>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <figure class="banner">
+                    <a href="#">
+                      <img
+                        src="https://ik.imagekit.io/yqgptirwh/mini_magick20240207-38589-asabng.jpg?updatedAt=1708084932246"
+                        width="750"
+                        height="350"
+                        loading="lazy"
+                        alt="Vestibulum massa arcu, consectetu pellentesque scelerisque."
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="content">
+                    <h3 class="h3 title">
+                      <a href="#">
+                        Packbox - a premium personalised box manufacturer
+                      </a>
+                    </h3>
+
+                    <p class="text">
+                      Designed in Figma, developed in MERN stack and deployed to
+                      hostlinger, with complete client satisfaction.
+                    </p>
+
+                    <div class="meta">
+                      <div class="publish-date">
+                        <ion-icon name="time-outline"></ion-icon>
+
+                        <time datetime="2022-03-07">7 Feb, 2024</time>
+                      </div>
+
+                      <!-- <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">15</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="banner">
+                    <a href="#">
+                      <img
+                        src="https://ik.imagekit.io/yqgptirwh/mini_magick20240207-39307-1afoyi.jpg?updatedAt=1708084932491"
+                        width="750"
+                        height="350"
+                        loading="lazy"
+                        alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi."
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="content">
+                    <h3 class="h3 title">
+                      <a href="#"> Shop-cum-Landing Page for EgleGlide Golf </a>
+                    </h3>
+
+                    <p class="text">
+                      Developed in wordpress, this site served 1000+ customers
+                      and brought in 13x business volume increment to our
+                      client.
+                    </p>
+
+                    <div class="meta">
+                      <div class="publish-date">
+                        <ion-icon name="time-outline"></ion-icon>
+
+                        <time datetime="2022-03-07">18 Jan, 2024</time>
+                      </div>
+
+                      <!-- <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">15</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="banner">
+                    <a href="#">
+                      <img
+                        src="https://ik.imagekit.io/yqgptirwh/mini_magick20240207-39625-e7cyen.jpg?updatedAt=1708084932457"
+                        width="750"
+                        height="350"
+                        loading="lazy"
+                        alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere."
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="content">
+                    <h3 class="h3 title">
+                      <a href="#">
+                        Estate Lord - a portal for premium real estate agents
+                      </a>
+                    </h3>
+
+                    <p class="text">
+                      Highly optimised and responsive react application,
+                      deployed to google's firebase and uses firestore as
+                      database.
+                    </p>
+
+                    <div class="meta">
+                      <div class="publish-date">
+                        <ion-icon name="time-outline"></ion-icon>
+
+                        <time datetime="2022-03-07">14 Dec, 2023</time>
+                      </div>
+
+                      <!-- <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">15</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure class="banner">
+                    <a href="#">
+                      <img
+                        src="https://ik.imagekit.io/yqgptirwh/mini_magick20240207-39307-x9c3az.jpg?updatedAt=1708084932498"
+                        width="750"
+                        height="350"
+                        loading="lazy"
+                        alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis."
+                        class="img-cover"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="content">
+                    <h3 class="h3 title">
+                      <a href="#">
+                        Bloom - shop your cool asthetic clothes in minutes
+                      </a>
+                    </h3>
+
+                    <p class="text">
+                      Frontend in React.js for elegant user-interface and a
+                      Python backend for expert personalised suggestion system
+                      for shoppers.
+                    </p>
+
+                    <div class="meta">
+                      <div class="publish-date">
+                        <ion-icon name="time-outline"></ion-icon>
+
+                        <time datetime="2022-03-07">5 Nov, 2023</time>
+                      </div>
+
+                      <!-- <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="15">15</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button> -->
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="reviewcontainer">
+          <h2 class="section-title underline">Our Happy Clients</h2>
+
+          <!-- Clients Review Section -->
+          <div class="reviewSection">
+            <!-- Clients Review-1 Section Starts from Here  -->
+            <div class="reviewItem">
+              <div class="top">
+                <div class="clientImage">
+                  <img
+                    src="https://ik.imagekit.io/yqgptirwh/Screenshot%202024-02-17%20at%206.01.45%E2%80%AFPM.png?updatedAt=1708173151223"
+                    style="border-radius: 999px; height: 50px; width: 50px"
+                    alt=""
+                  />
+                  <span>Viktor Dorotea</span>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+              </div>
+              <article>
+                <p class="review">
+                  Partnering with Offlinear  for our e-commerce website
+                  development and digital marketing needs has been a
+                  game-changer for our business. Their team's expertise in
+                  creating an intuitive and visually appealing website has
+                  significantly enhanced our online shopping experience, leading
+                  to increased customer satisfaction and retention.
+                </p>
+                <p>Jan 08, 2024</p>
+              </article>
+            </div>
+
+            <!-- Clients Review-2 Section Starts from Here  -->
+            <div class="reviewItem">
+              <div class="top">
+                <div class="clientImage">
+                  <img
+                    src="https://ik.imagekit.io/yqgptirwh/Screenshot%202024-02-17%20at%206.02.11%E2%80%AFPM.png?updatedAt=1708173150832"
+                    style="border-radius: 999px; height: 50px; width: 50px"
+                    alt=""
+                  />
+                  <span>Gloria Williams</span>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+              </div>
+              <article>
+                <p class="review">
+                  Choosing Offlinear for our custom website development and digital
+                  marketing needs was one of the best decisions we made for our
+                  boutique. Not only did they design a visually stunning website
+                  that resonated with our target audience, but their
+                  comprehensive digital marketing services helped us stand out
+                  in a competitive market.
+                </p>
+                <p>Nov 19, 2023</p>
+              </article>
+            </div>
+
+            <!-- Clients Review-3 Section Starts from Here  -->
+            <div class="reviewItem">
+              <div class="top">
+                <div class="clientImage">
+                  <img
+                    src="https://ik.imagekit.io/yqgptirwh/Screenshot%202024-02-17%20at%206.01.15%E2%80%AFPM.png?updatedAt=1708173150146"
+                    style="border-radius: 999px; height: 50px; width: 50px"
+                    alt=""
+                  />
+                  <span>Chetana Þórsteinn</span>
+                </div>
+                <ul>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                  <li><i class="fa-regular fa-star"></i></li>
+                </ul>
+              </div>
+              <article>
+                <p class="review">
+                  We approached Offlinear for a custom website revamp and
+                  were thoroughly impressed by their professionalism. Their
+                  team's dedication have been instrumental in our business
+                  growth. Offlinear has played a pivotal role in helping us
+                  expand our client base and establish ourselves as industry
+                  leaders in DEF Consulting.
+                </p>
+                <p>Dec 22, 2023</p>
+              </article>
+            </div>
+          </div>
+          <button
+            class="btn btn-whatsapp"
+            style="display: flex; align-items: center; margin-top: 20px"
+          >
+            <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+            <span style="margin-left: 10px">Message on Whatsapp</span>
+          </button>
+        </section>
+
+        <section class="clients">
+          <div class="container">
+            <h2 class="section-title underline">Some of Our Clients</h2>
+            <section class="clients-items">
+              <!-- <article>
+                <img src="./assets/images/cllients/arpitha-logo.png" />
+              </article> -->
+              <!-- <article>
+                <img src="./assets/images/cllients/ssmh.png" />
+              </article> -->
+              <article>
+                <section>
+                  <img src="./assets/images/cllients/cutis.png" />
+                </section>
+                <section>
+                  <img src="./assets/images/cllients/dhee.png" />
+                </section>
+                <section>
+                  <img src="./assets/images/cllients/eesha.png" />
+                </section>
+              </article>
+              <article>
+                <section>
+                  <img
+                    src="./assets/images/cllients/kangaroo-care-new-logo.png"
+                  />
+                </section>
+                <section>
+                  <img src="./assets/images/cllients/ovum.png" />
+                </section>
+                <section>
+                  <img src="./assets/images/cllients/sphoorti.png" />
+                </section>
+              </article>
+            </section>
+          </div>
+        </section>
+        <section>
+          <div class="accordion">
+            <h2 class="section-title underline">Frequently Asked Questions</h2>
+            <div class="accordion-item">
+              <input type="checkbox" id="accordion1" />
+              <label for="accordion1" class="accordion-item-title"
+                ><span class="icon"></span>What services does your web agency
+                offer?</label
+              >
+              <div class="accordion-item-desc">
+                Our website development agency offers a comprehensive range of services
+                including web design, web development, e-commerce solutions,
+                mobile app development, digital marketing, SEO (Search Engine
+                Optimization), and website maintenance.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <input type="checkbox" id="accordion2" />
+              <label for="accordion2" class="accordion-item-title"
+                ><span class="icon"></span>How do you ensure the quality of your
+                services?</label
+              >
+              <div class="accordion-item-desc">
+                We have a team of highly skilled professionals with years of
+                experience in their respective fields. We follow industry best
+                practices and use cutting-edge technologies to deliver
+                high-quality solutions that meet our clients' specific needs and
+                requirements.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <input type="checkbox" id="accordion3" />
+              <label for="accordion3" class="accordion-item-title"
+                ><span class="icon"></span>Can you help with custom website redesign or
+                revamp?</label
+              >
+              <div class="accordion-item-desc">
+                Absolutely! Whether you need a complete website redesign or just
+                a few updates to enhance its functionality and aesthetics, our
+                team can assist you in achieving your goals and improving your
+                online presence.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <input type="checkbox" id="accordion4" />
+              <label for="accordion4" class="accordion-item-title"
+                ><span class="icon"></span>How do I get started with your website
+                agency?</label
+              >
+              <div class="accordion-item-desc">
+                Getting started with the best website design agency is simple! You can reach out
+                to us through our website contact form, email, or phone number
+                to schedule a consultation. During the consultation, we'll
+                discuss your project requirements, goals, and timeline to
+                provide you with a tailored solution that meets your needs.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <input type="checkbox" id="accordion5" />
+              <label for="accordion5" class="accordion-item-title"
+                ><span class="icon"></span>Do you provide e-commerce website
+                for businesses?</label
+              >
+              <div class="accordion-item-desc">
+                Yes, we specialize in developing customized e-commerce website development
+                tailored to the unique requirements of businesses of all sizes.
+                From setting up online stores to integrating secure payment
+                gateways, we ensure a seamless shopping experience for your
+                customers.
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <input type="checkbox" id="accordion6" />
+              <label for="accordion6" class="accordion-item-title"
+                ><span class="icon"></span>How long does it take to develop a
+                website or mobile app?</label
+              >
+              <div class="accordion-item-desc">
+                The timeline for website or mobile app development varies
+                depending on the complexity and scope of the project. We work
+                closely with our clients to establish clear timelines and
+                milestones, ensuring timely delivery without compromising on
+                quality.
+              </div>
+            </div>
+          </div>
+          <div
+            style="display: flex; justify-content: center; margin-bottom: 60px"
+          >
+            <a
+              class="btn"
+              href="#"
+              style="display: flex; align-items: center; margin-top: 20px"
+            >
+              <ion-icon name="create" aria-hidden="true"></ion-icon>
+              <span style="margin-left: 10px">Fill Contact Form</span>
+            </a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">Offlinear</a>
+
+            <p class="text">
+              Offlinear :  Discover the synergy of personalized software solutions and strategic foresight that positions your company at the forefront of the digital age.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-Linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Our links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Team</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="footer-link">Portfolio</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Our Services</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Strategy & Research</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Human Capital Management</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Staff Augmentation</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">IT Consultation</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Offshore Development Services(ODC)</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Other links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Support</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li class="footer-item">
+              <div class="footer-item-icon">
+                <ion-icon name="call"></ion-icon>
+              </div>
+
+              <div>
+                <a href="tel:+919301420919" class="footer-item-link"
+                  > 323-391-0812</a
+                >
+                <!-- <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a> -->
+              </div>
+            </li>
+
+            <li class="footer-item">
+              <div class="footer-item-icon">
+                <ion-icon name="mail"></ion-icon>
+              </div>
+
+              <div>
+                <a
+                  href="mailto:hello@globaltrendzmedia.com"
+                  class="footer-item-link"
+                  >Admin@offlinear.com</a
+                >
+                <!-- <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a> -->
+              </div>
+            </li>
+
+            <li class="footer-item">
+              <div class="footer-item-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+
+              <address class="footer-item-link">
+                Sheridan, Wyoming 82801, US
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- //sidebar  -->
+    <div id="mysidenav">
+      <div id="sidenavappointment" ref="{ref}">
+        <a
+          href="https://api.whatsapp.com/send/?phone=9301420919&text&type=phone_number&app_absent=0"
+          target="_blank"
+        >
+          <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+          Message on Whatsapp
+        </a>
+      </div>
+      <div id="sidenavphone">
+        <a href="tel:+323-391-0812" target="_blank">
+          <ion-icon name="call-outline"></ion-icon>
+          Call Us
+        </a>
+      </div>
+      <!-- <div id="cartItem">
+        <div id="new-icon">
+          <div id="icon">NEW</div>
+        </div>
+        <a href="https://ovumbabybuddy.com/" target="_blank">
+          <BsFillCartDashFill />
+          Babybuddy
+        </a>
+      </div> -->
+    </div>
+
+    <!-- //bottom bar  -->
+
+    <!-- {/* mobile */} -->
+
+    <div class="mobile-bottom-container">
+      <div class="mobile-bottom mobile-bottom-hidden" data-bottom-container>
+        <div class="mobile-bottom-1 bottomwhatsapp">
+          <div class="mobile-bottom-img">
+            <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+          </div>
+          <div class="mobile-bottom-text">
+            <a
+              href="https://api.whatsap"
+            >
+              Message Us</a
+            >
+          </div>
+        </div>
+        <div class="mobile-bottom-1 bottomcall">
+          <div class="mobile-bottom-img">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+          <div class="mobile-bottom-text">
+            <a href="tel:323-391-0812"> Call Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    - #GO TO TOP
+  -->
+
+    <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
